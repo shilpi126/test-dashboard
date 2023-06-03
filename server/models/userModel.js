@@ -32,6 +32,8 @@ const userSchema = new mongoose.Schema({
     role:{
         type:String,
         enum:["manufacturer","transporter"]
+    },address:{
+        type:String,
     }
 
 })
